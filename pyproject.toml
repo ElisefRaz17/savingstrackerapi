@@ -1,0 +1,14 @@
+[project]
+name = "flask-supabase-vercel"
+version = "0.1.0"
+description = "Flask app connected to Supabase"
+dependencies = [
+    "Flask>=3.0.0",
+    "supabase>=2.0.0",
+    "python-dotenv>=1.0.0"
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
